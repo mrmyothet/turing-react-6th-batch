@@ -1,2 +1,6 @@
-# turing-react-6th-batch
-Turing React 6th Batch 
+# Turing React 6th Batch 
+* Types Values and Variables 
+* Expressions and Operators 
+* Statements 
+* Objects 
+* Arrays 
