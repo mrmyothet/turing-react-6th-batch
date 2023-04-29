@@ -1,0 +1,11 @@
+let obj={
+    name: "TK", 
+    age: 38
+};
+
+console.log("obj instanceof Object ", obj instanceof Object);
+console.log("obj instanceof Date ", obj instanceof Date);
+
+let date = new Date();
+console.log("date instanceof Object ", date instanceof Object);
+console.log("date instanceof Date ", date instanceof Date);
