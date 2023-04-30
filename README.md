@@ -9,3 +9,4 @@
 - Chapter 5. Statements
 - Chapter 6. Objects
 - Chapter 7. Arrays
+- Chapter 8. Functions
