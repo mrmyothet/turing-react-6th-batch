@@ -1,5 +1,5 @@
 let str = 'Hello';
-let arr = [...str]; // suppress symbol 
+let arr = [...str]; // sperad symbol 
 console.log('Arr ', arr);
 
 // Array constructor 
