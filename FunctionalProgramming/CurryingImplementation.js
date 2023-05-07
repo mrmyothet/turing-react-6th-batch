@@ -14,5 +14,6 @@ let curry = (fn) => {
 
 const multiply = (x, y, z) => x * y * z;
 const curriedMultiply = curry(multiply);
+
 console.log('Multiply ', curriedMultiply(2)(3)(4));
 console.log(curriedMultiply(2, 3, 4));
