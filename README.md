@@ -10,3 +10,5 @@
 - Chapter 6. Objects
 - Chapter 7. Arrays
 - Chapter 8. Functions
+- Functional Programming
+- Ramda Library
