@@ -8,7 +8,7 @@ const addFive = (x) => x + 5;
 
 // Currying
 // If currying function is called with less arguments - Partial Application (Partial Apply)
-// Currying is usefule for composition
+// Currying is useful for composition
 
 /*
 
