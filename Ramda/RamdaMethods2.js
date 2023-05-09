@@ -1,7 +1,3 @@
-const even = (x) => x % 2 === 0;
-let result = R.count(even, [1, 2, 3, 4, 5]);
-console.log(result);
-
 // comparator and sort
 const byAge = R.comparator((a, b) => a.age < b.age);
 const people = [
@@ -10,8 +6,12 @@ const people = [
   { name: 'Mikhail', age: 62 },
 ];
 const peopleByIncreasingAge = R.sort(byAge, people);
-console.log(peopleByIncreasingAge);
+console.log('Sorted ', peopleByIncreasingAge);
 
+/* always 
+Returns a function that always returns the given value. 
+Note that for non-primitives the value returned is a reference to the original value.
+*/
 result = R.always('Hello')('Something');
 console.log(result);
 
