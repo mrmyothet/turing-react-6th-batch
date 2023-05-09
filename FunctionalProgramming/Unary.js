@@ -14,9 +14,9 @@ console.log('Number ', numbers);
 // parseInt(2, 1); // NaN
 
 let numbers2 = arr.map((x) => parseInt(x));
-console.log(numbers2);
+console.log('Numbers2', numbers2);
 
 const unary = (fn) => (fn.length === 1 ? fn : (arg) => fn(arg));
 
 const numbers3 = arr.map(unary(parseInt));
-console.log(numbers3);
+console.log('Numbers3', numbers3);
