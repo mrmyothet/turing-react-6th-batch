@@ -19,6 +19,15 @@ function composeN(...fns) {
 }
 */
 
+/*
+how 'input' is used at 
+fns.reduceRight(function(input, fun)) 
+
+composeN(addOne, double, addFive) -> new function 
+function(x) - we can accept input parameter in function 
+reduce(accumulatorFun, initialValue)
+*/
+
 // Arrow version
 const composeN =
   (...fns) =>
