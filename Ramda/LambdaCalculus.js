@@ -16,6 +16,3 @@ Function.prototype.toJsBool = function () {
 console.log('True ', TRUE.toJsBool());
 console.log('Not False', NOT(FALSE).toJsBool());
 console.log('Not True', NOT(TRUE).toJsBool());
-
-const substract = (a) => (b) => a - b;
-substract(5, 3);
