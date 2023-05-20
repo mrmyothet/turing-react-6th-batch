@@ -1,3 +1,7 @@
+// Railway Oriented Programming
+
+// Must use Functional Error Handling for asynchronous code
+
 // Left - Failure Path
 // Right - Success Path
 
