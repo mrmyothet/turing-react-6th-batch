@@ -14,14 +14,7 @@ console.log(result, logStr);
 // let newFunc = compose(double, inc);
 // console.log('NewFunc ', newFunc(10));
 
-/*
-compose(f, g){
-    [result, log] = g(x);
-    [result2, log2] = f(result)
-
-    return [result2, log+log2];
-}
-*/
+const compose = (f, g) => (x) => f(g(x));
 
 let composeDebuggable = (f, g) => (x) => {
   let [result, logStr] = g(x);
@@ -41,4 +34,10 @@ const bind = (f) =>
     return [result2, log1 + ', ' + log2];
   };
 
-let newFunctionWithTuple = compose(bind(inc));
+let newFunctionWithTuple = compose(bind(inc), bind(double));
+console.log('newFunctionWithTuple(10)', newFunctionWithTuple([10, '']));
+
+const unit = (x) => [x, ''];
+
+let finalFunc = compose(newFunctionWithTuple, unit);
+console.log('finalFunc(10)', finalFunc(10));
