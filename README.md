@@ -12,3 +12,11 @@
 - Chapter 8. Functions
 - Functional Programming
 - Ramda Library
+
+### Functional Programming
+
+- [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js)
+- [Functional Programming Learning Path](https://github.com/imteekay/functional-programming-learning-path)
+- [A five-level learning roadmap for Functional Programmers](https://hub.packtpub.com/a-five-level-learning-roadmap-for-functional-programmers/)
+- [Functional programming in TypeScript](https://gcanti.github.io/fp-ts/)
+- [7urtle/lambda - Functional programming library for JavaScript](https://www.7urtle.com/)
