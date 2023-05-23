@@ -12,6 +12,8 @@
 - Chapter 8. Functions
 - Functional Programming
 - Ramda Library
+- Category Theory
+- Chapter 9. Classes
 
 ### Functional Programming
 
