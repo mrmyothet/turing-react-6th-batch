@@ -28,3 +28,8 @@ console.log('Set ', set);
 
 set.delete('20'); // will not delete - test with ===
 console.log('Set ', set);
+
+console.log('Iterating Set');
+for (const item of set) {
+  console.log('Item ', item);
+}
