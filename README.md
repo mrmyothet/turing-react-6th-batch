@@ -14,6 +14,9 @@
 - Ramda Library
 - Category Theory
 - Chapter 9. Classes
+- Chapter 10. Modules
+- Chapter 11. Standard Library
+- Chapter 12. Iterators and Generators
 
 ### Functional Programming
 
