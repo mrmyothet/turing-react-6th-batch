@@ -17,6 +17,7 @@
 - Chapter 10. Modules
 - Chapter 11. Standard Library
 - Chapter 12. Iterators and Generators
+- Chapter 13. Asynchronous Programming
 
 ### Functional Programming
 
